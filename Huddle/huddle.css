@@ -50,7 +50,7 @@ h6 {
 }
 
 #header {
-    height: 100vh;
+    height: 120vh;
     background-color: hsl(193, 100%, 96%);
     background-image: url(bg-hero-desktop.svg);
     width: 100%;
@@ -110,6 +110,7 @@ h6 {
 #header .headtwo .img {
     background-size: cover;
     background-position: center;
+    /* margin-top: 10%; */
 }
 
 #header .headtwo .img img {
@@ -326,6 +327,7 @@ footer .copyright p {
         width: 100%;
     }
 
+
 }
 
 /* large */
@@ -432,6 +434,7 @@ footer .copyright p {
     .logo img {
         width: 23%;
         padding-top: 2%;
+        margin-top: 5%;
     }
 
     #header .headtxt h2 {
@@ -447,6 +450,18 @@ footer .copyright p {
     #header .headtwo .headbtn {
         width: 70%;
         margin-top: 30px;
+    }
+
+    .hanger .hang-div {
+        margin: auto;
+        margin-top: 15px;
+        font-size: 16px;
+        color: #f0f5f7;
+        width: 60%;
+        padding: 10px;
+        text-align: center;
+        border-radius: 90px;
+        box-shadow: 0px 3px 5px 2px rgba(109, 106, 106, 0.12);
     }
 
 }
@@ -501,9 +516,14 @@ footer .copyright p {
         width: 100%;
     }
 
+    #header {
+        height: 150vh;
+    }
+
     .logo img {
         width: 36%;
         padding-top: 2%;
+        margin-top: 5%;
     }
 
     #header .headtwo .headbtn {
@@ -512,8 +532,44 @@ footer .copyright p {
         margin-left: 15%;
     }
 
+    #header .headtwo .img {
+        margin-top: 10%;
+    }
+
     #header .headtxt {
         text-align: center;
+    }
+
+    .hanger {
+        /* width: 95%;
+        padding: 40px;
+        border-radius: 10px;
+        margin: 0 3%;
+        margin-top: 10%; */
+        width: 60%;
+        padding: 50px;
+        border-radius: 10px;
+        margin-top: 8%;
+        margin-left: 20%;
+        /* margin-left: 20%; */
+        z-index: 9;
+    }
+
+    .hanger h2 {
+        font-size: 20px;
+        color: hsl(192, 100%, 9%);
+    }
+
+    .hanger .hang-div {
+        margin: auto;
+        margin-top: 15px;
+        font-size: 16px;
+        color: #f0f5f7;
+        width: 60%;
+        padding: 10px;
+        text-align: center;
+        border-radius: 90px;
+        box-shadow: 0px 3px 5px 2px rgba(109, 106, 106, 0.12);
     }
 }
 
@@ -567,9 +623,14 @@ footer .copyright p {
         width: 100%;
     }
 
+    #header {
+        height: 150vh;
+    }
+
     .logo img {
         width: 50%;
         padding-top: 2%;
+        margin-top: 5%;
     }
 
     #header .headtwo .headbtn {
@@ -578,8 +639,39 @@ footer .copyright p {
         margin-left: 12%;
     }
 
+    #header .headtwo .img {
+        margin-top: 10%;
+    }
+
     #header .headtxt {
         text-align: center;
+    }
+
+    .hanger {
+        width: 95%;
+        padding: 40px;
+        border-radius: 10px;
+        margin: 0 3%;
+        margin-top: 10%;
+        /* margin-left: 20%; */
+        z-index: 9;
+    }
+
+    .hanger h2 {
+        font-size: 20px;
+        color: hsl(192, 100%, 9%);
+    }
+
+    .hanger .hang-div {
+        margin: auto;
+        margin-top: 15px;
+        font-size: 16px;
+        color: #f0f5f7;
+        width: 60%;
+        padding: 10px;
+        text-align: center;
+        border-radius: 90px;
+        box-shadow: 0px 3px 5px 2px rgba(109, 106, 106, 0.12);
     }
 
 }
@@ -634,6 +726,10 @@ footer .copyright p {
         width: 100%;
     }
 
+    #header {
+        height: 150vh;
+    }
+
     .logobtn {
         padding: 7px 25px;
         margin-top: 12%;
@@ -668,8 +764,39 @@ footer .copyright p {
         margin-left: 12%;
     }
 
+    #header .headtwo .img {
+        margin-top: 10%;
+    }
+
     #header .headtxt {
         text-align: center;
+    }
+
+    .hanger {
+        width: 95%;
+        padding: 40px;
+        border-radius: 10px;
+        margin: 0 3%;
+        margin-top: 5%;
+        /* margin-left: 20%; */
+        z-index: 9;
+    }
+
+    .hanger h2 {
+        font-size: 20px;
+        color: hsl(192, 100%, 9%);
+    }
+
+    .hanger .hang-div {
+        margin: auto;
+        margin-top: 15px;
+        font-size: 16px;
+        color: #f0f5f7;
+        width: 60%;
+        padding: 10px;
+        text-align: center;
+        border-radius: 90px;
+        box-shadow: 0px 3px 5px 2px rgba(109, 106, 106, 0.12);
     }
 }
 
@@ -724,8 +851,9 @@ footer .copyright p {
     }
 
     #header {
-        height: 100vh;
+        height: 150vh;
     }
+
 
     .logobtn {
         padding: 5px 18px;
@@ -783,6 +911,7 @@ footer .copyright p {
         text-align: center;
         border-radius: 90px;
     }
+
 
     #header .headtwo .img {
         margin-top: 15%;
